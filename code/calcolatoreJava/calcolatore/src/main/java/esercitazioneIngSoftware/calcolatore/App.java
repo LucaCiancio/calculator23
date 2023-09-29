@@ -8,6 +8,12 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       calculator c1= new calculator();
+       
+       System.out.println("7 + 3 ="+c1.addizione(7,3));
+       
+       System.out.println("7 - 3 = "+c1.sottrazione(7,3));
+       
+       System.out.println("7 * 3 = "+c1.prodotto(7,3));
     }
 }
